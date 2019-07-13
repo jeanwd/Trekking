@@ -1,0 +1,86 @@
+/* Cards Component
+   ========================================================================== */
+
+.card {
+    max-width: 80%;
+    margin: 10px;
+    background-color: $white;
+    height: 27em;
+}
+
+.card__body {
+    padding: 8px 20px;
+    text-align: left;
+    background-color: $white;
+}
+
+.card__text {
+    padding-top: 10px;
+}
+
+.card__tittle01 {
+    font-family: $raleway;
+    font-weight: $regular;
+    font-size: $x-large;
+}
+
+.card__tittle02 {
+    @extend .card__tittle01;
+    font-weight: $bold;
+    font-size: $xx-large;
+    padding-bottom: .7em;
+    letter-spacing: 8px;
+}
+
+li {
+    padding-top: .5rem;
+    font-size: $small;
+    font-weight: $regular;
+    color: $raising-black;
+    line-height: 2rem;
+    font-family: $raleway;
+}
+
+.nline2 {
+    border-top: solid;
+    border-top-color: $spanish-gray;
+    border-width: thin;
+    width: 100%;
+    text-align: center;
+}
+
+.nlspace {}
+
+.btl {
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width:768px) {
+    .card {
+        max-width: 70%;
+        margin: 10px;
+        background-color: $white;
+        height: 27em;
+    }
+    .card__body {
+        padding: 30px 20px;
+        text-align: left;
+        background-color: $white;
+    }
+    .card__text {
+        padding-top: 10px;
+    }
+    .card__tittle01 {
+        font-family: $raleway;
+        font-weight: $regular;
+        font-size: $large;
+    }
+    .card__tittle02 {
+        @extend .card__tittle01;
+        font-weight: $bold;
+        font-size: $x-large;
+        padding-bottom: .7em;
+        letter-spacing: 5px;
+    }
+}

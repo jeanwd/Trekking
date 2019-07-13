@@ -1,0 +1,60 @@
+// Esquema de color: buttons
+.button_primary {
+    padding: .4rem 1.1rem;
+    cursor: pointer;
+    font-family: $raleway;
+    font-size: $small;
+    font-weight: $regular;
+    margin-top: 6px;
+    margin-bottom: 1em;
+    margin-left: 2.5em;
+    color: $white;
+    border: none;
+    background-color: $ball-blue;
+    &:hover {
+        background-color: $middle-blue;
+    }
+    &:focus {
+        background-color: $gray;
+    }
+}
+
+.button_large {
+    padding: .8rem 5rem;
+    cursor: pointer;
+    font-family: $raleway;
+    font-size: $medium;
+    font-weight: $regular;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    color: $white;
+    border: none;
+    background-color: $ball-blue;
+    &:hover {
+        background-color: $middle-blue;
+    }
+    &:focus {
+        background-color: $gray;
+    }
+}
+
+@media (max-width:768px) {
+    .button_large {
+        padding: .8rem 5rem;
+        cursor: pointer;
+        font-family: $raleway;
+        font-size: $small;
+        font-weight: $regular;
+        margin-top: 1em;
+        margin-bottom: 2em;
+        color: $white;
+        border: none;
+        background-color: $ball-blue;
+        &:hover {
+            background-color: $middle-blue;
+        }
+        &:focus {
+            background-color: $gray;
+        }
+    }
+}

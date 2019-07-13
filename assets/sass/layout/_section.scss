@@ -1,0 +1,164 @@
+.chart01 {
+    text-align: right;
+    margin-top: 2em;
+}
+
+.chart02 {
+    text-align: left;
+    padding: 0em;
+    width: 50%;
+    margin-top: 2em;
+    p {
+        font-size: $x-small;
+        font-weight: $regular;
+        color: $raising-black;
+        line-height: 1.7rem;
+        margin-top: 2em;
+        text-align: left;
+    }
+    a {
+        padding-bottom: 3em;
+        text-align: left;
+    }
+}
+
+.section__features {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 2em;
+    padding-top: 0em;
+}
+
+.bargraph {
+    -webkit-animation: fade 2s ease-in 3 alternate forwards;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+
+@keyframes fade {
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/* Section_ features */
+
+.element {
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/bg-price.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.section_prices {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 4em;
+    padding-top: 0em;
+    height: 50em;
+}
+
+.prices__title {
+    color: $white;
+    margin-bottom: 1em;
+    padding-top: 10em;
+}
+
+.dcard01 {
+    margin-top: 0em;
+    padding-left: 0em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dcard02 {
+    margin-top: 0em;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 0em;
+}
+
+@media (max-width:768px) {
+    .dcard01 {
+        margin-top: 0em;
+        padding-left: 0em;
+        display: flex;
+        justify-content: center;
+    }
+    .dcard02 {
+        margin-top: 0em;
+        display: flex;
+        justify-content: center;
+        padding-right: 0em;
+        background-color: $onyx;
+        padding-bottom: 8em;
+    }
+    .section_prices {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 1em;
+        padding-top: 0em;
+        height: 50em;
+    }
+    .prices__title {
+        color: $white;
+        margin-bottom: 1em;
+        padding-top: 10em;
+    }
+    .element {
+        height: 85em;
+        width: 100%;
+        background-image: url('../images/bg-price.svg');
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+    .section__features {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 0em;
+        padding-top: 0em;
+    }
+}
+
+
+/*section_ Características*/
+
+@media (max-width:768px) {
+    .bargraph {
+        transform: scale(0.9);
+        width: 100%;
+        text-align: center;
+        padding: 2em;
+    }
+    .chart02 {
+        text-align: left;
+        padding: 0em 3em;
+        width: 100%;
+        margin-top: 0em;
+        p {
+            font-size: $x-small;
+            font-weight: $regular;
+            color: $raising-black;
+            line-height: 1.7rem;
+            margin-top: 1em;
+        }
+        a {
+            padding-bottom: 3em;
+        }
+    }
+    .chart01 {
+        text-align: center;
+        margin-top: 0em;
+        padding-bottom: 0em;
+    }
+    .bg-chart {
+        text-align: center;
+        margin-top: 0em;
+        margin-bottom: 0em;
+    }
+}

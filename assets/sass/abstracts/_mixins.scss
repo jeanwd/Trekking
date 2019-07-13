@@ -1,0 +1,8 @@
+// Mixins
+
+// Transformar px en Rem
+@mixin relative-converter($property, $unit, $target, $context) {
+  $result: ($target / $context);
+
+  #{$property}: #{$result + $unit};
+}

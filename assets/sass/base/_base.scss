@@ -1,0 +1,38 @@
+/* Base Styles
+   ========================================================================== */
+/**
+* Define el tamaño del diseño a 1280px
+*/
+
+@media only screen and (min-width: 1280px) {
+  body {
+    width: 1280px;
+    margin: 0 auto;
+  }
+}
+
+
+
+.clear{
+  clear: both;
+}
+
+
+// Tipografia
+
+h1, h2,h3, h4, h5, h6 {
+  font-family: $raleway;
+}
+
+
+p {
+  font-family: $raleway;
+
+}
+
+a {
+  font-family: $raleway;
+  font-weight: $bold;
+  font-size: $large;
+
+}
